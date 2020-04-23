@@ -7,7 +7,7 @@ import java.util.Properties;
 public class File_Properties {
 
 	public static void main(String[] args) throws IOException {
-		FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"\\src\\com\\resources\\OR.properties");
+		FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\java\\com\\resources\\OR.properties");
 		Properties prop = new Properties();
 		prop.load(file);        //Load the properties file
 		
