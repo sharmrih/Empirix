@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="30896" started-at="2020-04-22T11:47:31Z" finished-at="2020-04-22T11:48:02Z">
+  <suite name="Suite" duration-ms="35900" started-at="2020-04-23T08:18:00Z" finished-at="2020-04-23T08:18:36Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="30896" started-at="2020-04-22T11:47:31Z" finished-at="2020-04-22T11:48:02Z">
+    <test name="TestOnChrome" duration-ms="33624" started-at="2020-04-23T08:18:00Z" finished-at="2020-04-23T08:18:34Z">
       <class name="Empirix1_Project.Empirix1_Project.AppTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Empirix1_Project.Empirix1_Project.AppTest@52e677af]" name="setup" is-config="true" duration-ms="28114" started-at="2020-04-22T17:17:31Z" finished-at="2020-04-22T17:17:59Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Empirix1_Project.Empirix1_Project.AppTest@52e677af]" name="setup" is-config="true" duration-ms="30089" started-at="2020-04-23T13:48:00Z" finished-at="2020-04-23T13:48:30Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,61 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testEasy()[pri:0, instance:Empirix1_Project.Empirix1_Project.AppTest@52e677af]" name="testEasy" duration-ms="1903" started-at="2020-04-22T17:17:59Z" finished-at="2020-04-22T17:18:01Z">
+        <test-method status="PASS" signature="TC01()[pri:0, instance:Empirix1_Project.Empirix1_Project.AppTest@52e677af]" name="TC01" duration-ms="2280" started-at="2020-04-23T13:48:30Z" finished-at="2020-04-23T13:48:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testEasy -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Empirix1_Project.Empirix1_Project.AppTest@52e677af]" name="afterTest" is-config="true" duration-ms="864" started-at="2020-04-22T17:18:01Z" finished-at="2020-04-22T17:18:02Z">
+        </test-method> <!-- TC01 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Empirix1_Project.Empirix1_Project.AppTest@52e677af]" name="teardown" is-config="true" duration-ms="1219" started-at="2020-04-23T13:48:33Z" finished-at="2020-04-23T13:48:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
+        </test-method> <!-- teardown -->
       </class> <!-- Empirix1_Project.Empirix1_Project.AppTest -->
-    </test> <!-- Test -->
+    </test> <!-- TestOnChrome -->
+    <test name="TestOnEdge" duration-ms="34030" started-at="2020-04-23T08:18:00Z" finished-at="2020-04-23T08:18:34Z">
+      <class name="Empirix1_Project.Empirix1_Project.AppTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Empirix1_Project.Empirix1_Project.AppTest@7920ba90]" name="setup" is-config="true" duration-ms="30748" started-at="2020-04-23T13:48:00Z" finished-at="2020-04-23T13:48:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC01()[pri:0, instance:Empirix1_Project.Empirix1_Project.AppTest@7920ba90]" name="TC01" duration-ms="2494" started-at="2020-04-23T13:48:31Z" finished-at="2020-04-23T13:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Empirix1_Project.Empirix1_Project.AppTest@7920ba90]" name="teardown" is-config="true" duration-ms="776" started-at="2020-04-23T13:48:33Z" finished-at="2020-04-23T13:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Empirix1_Project.Empirix1_Project.AppTest -->
+    </test> <!-- TestOnEdge -->
+    <test name="TestOnFirefox" duration-ms="35900" started-at="2020-04-23T08:18:00Z" finished-at="2020-04-23T08:18:36Z">
+      <class name="Empirix1_Project.Empirix1_Project.AppTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Empirix1_Project.Empirix1_Project.AppTest@53ca01a2]" name="setup" is-config="true" duration-ms="32104" started-at="2020-04-23T13:48:00Z" finished-at="2020-04-23T13:48:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC01()[pri:0, instance:Empirix1_Project.Empirix1_Project.AppTest@53ca01a2]" name="TC01" duration-ms="1461" started-at="2020-04-23T13:48:32Z" finished-at="2020-04-23T13:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Empirix1_Project.Empirix1_Project.AppTest@53ca01a2]" name="teardown" is-config="true" duration-ms="2325" started-at="2020-04-23T13:48:34Z" finished-at="2020-04-23T13:48:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Empirix1_Project.Empirix1_Project.AppTest -->
+    </test> <!-- TestOnFirefox -->
   </suite> <!-- Suite -->
 </testng-results>

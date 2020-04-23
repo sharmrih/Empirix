@@ -48,7 +48,7 @@ public class AppTest {
 						}
 							if(browser.equalsIgnoreCase("Edge"))
 							{
-								WebDriverManager.edgedriver().setup();
+								WebDriverManager.edgedriver().forceDownload().setup();
 								driver = new EdgeDriver();
 								System.out.println("Edge Launched");
 							}
@@ -75,9 +75,10 @@ public class AppTest {
 		
 		
 		@AfterTest
-		public void afterTest() {
-			driver.quit();
-			driver.close();
-		}		
+		public void teardown() {
+	        if (driver != null) {
+	            driver.quit();
+	        }
+	    }	
 
 }
